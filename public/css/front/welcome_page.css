@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    background-image: url(https://th.bing.com/th/id/R.bce6e9d76a77721ebcd884c41c396812?rik=EGmkFNzHOpbiKg&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f09%2f18%2fcall-of-duty-desktop-background_112327334_219.jpg&ehk=7g8wWx1xeq2g5hR%2bxsZmw%2fFkz5DGH2LrkVdXoGq8K9A%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+div {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+a {
+    background-color: bisque;
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    box-shadow: 5px 5px 5px rgb(119, 119, 134);
+    padding: 3px;
+}
+h1 {
+    margin-top: 150px;
+    margin-left: 10px;
+    color: white;
+}
+main {
+    height: 100px;
+}

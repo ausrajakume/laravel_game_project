@@ -1,0 +1,27 @@
+.btn.btn-app.new-resource{
+    margin: 0;
+    height: auto;
+    border: 1px solid;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.btn.btn-app.new-resource i{
+    display: inline;
+    font-size: inherit;
+}
+
+
+.container-fluid .card-header{
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid .card-header .h3{
+    float:none;
+}
+.container-fluid .card-header .header-actions{
+    margin-left: auto;
+}

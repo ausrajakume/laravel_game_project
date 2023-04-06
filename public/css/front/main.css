@@ -1,0 +1,121 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+main, nav {
+    width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section>div.game-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+article.game-card {
+    position: relative;
+}
+
+/* article.game-card>a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+} */
+
+article.game-card img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left top;
+}
+
+article.game-card {
+    display: grid;
+    font-size: 1.1em;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px 0px #d3d3d3;
+    transition: all 100ms ease-in;
+    margin-bottom: 15px
+}
+
+.game-card-hover:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 9px 2px #d3d3d3;
+}
+
+article>.game-card-body {
+    padding: 0 15px;
+}
+
+article>.game-card-body div.game-card-details {
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+article>.game-card-body div.game-card-details div span:nth-of-type(odd) {
+    font-weight: bold;
+}
+
+article>.game-card-body div.game-card-details div {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+article>.game-card-body div.game-card-details,
+article>.game-card-body div.game-card-description {
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+article>.game-card-body div.game-card-description {
+    font-size: 1em;
+    /* height: 100px; */
+}
+
+/* Show */
+div.single-game-card-wrapper article {
+    width: 800px;
+
+}
+
+div.single-game-card-wrapper article {
+    width: 800px;
+    margin: auto;
+}
+
+div.single-game-card-wrapper article.game-card img {
+
+    height: 800px
+}
+
+div.single-game-card-wrapper article>.game-card-body {
+    padding: 0 30px;
+}
+
+div.single-game-card-wrapper article>.game-card-body div.game-card-details {
+    font-size: 0.9em;
+}
+
+div.single-game-card-wrapper article>.game-card-body div.game-card-description {
+    font-size: 1.1em;
+    text-indent: 50px;
+}
+
+div.single-game-card-wrapper article>.game-card-body div.game-card-details,
+div.single-game-card-wrapper article>.game-card-body div.game-card-description {
+    padding-bottom: 30px;
+}

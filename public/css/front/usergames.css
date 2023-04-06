@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header-slideshow {
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/39/b1/f1/39b1f13c46617c0a2f40cc4a9953fb39.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 5s;
+}
+
+
+.game-card {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+}
+body{
+    background-image:url(https://i.pinimg.com/originals/39/b1/f1/39b1f13c46617c0a2f40cc4a9953fb39.jpg) ;
+}
+main {
+    display: flex;
+    justify-content: center;
+    /* background-image: url(https://images5.alphacoders.com/118/1188416.jpg); */
+    background-image: url(https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54051.jpg);
+    background-size: cover;
+}
+
+.game-cards-container {
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+button {
+    background-color: rgb(59, 107, 163);
+    margin-top: 5px;
+    width: 95px;
+    color: white;
+    border: none;
+}
+button:hover {
+    box-shadow: 3px 3px 3px black;
+}
+h5 {
+    color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+}
+li {
+    color: white;
+}
+.show-game-card {
+    width: 500px;
+}
+.show-game-card > img {
+    width: 100%;
+}
+.gp-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.color-w {
+    color: white;
+}
